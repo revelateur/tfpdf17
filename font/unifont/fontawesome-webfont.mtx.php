@@ -13,7 +13,7 @@ $desc=array (
 );
 $up=0;
 $ut=0;
-$ttffile='/var/www/html/service-civique-tea.test/gestion/vendor/fpdf17/font/unifont/fontawesome-webfont.ttf';
+$ttffile=__DIR__.'/fontawesome-webfont.ttf';
 $originalsize=138204;
 $fontkey='fontawesome';
 ?>

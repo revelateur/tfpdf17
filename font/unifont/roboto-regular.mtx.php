@@ -13,7 +13,7 @@ $desc=array (
 );
 $up=-73;
 $ut=49;
-$ttffile='/var/www/html/service-civique-tea.test/gestion/vendor/fpdf17/font/unifont/roboto-regular.ttf';
+$ttffile=__DIR__.'/roboto-regular.ttf';
 $originalsize=162876;
 $fontkey='roboto-regular';
 ?>
