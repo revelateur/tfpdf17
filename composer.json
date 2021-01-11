@@ -1,0 +1,21 @@
+{
+    "name": "revelateur/tfpdf17",
+    "description": "",
+    "keywords": [
+        "pdf"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agence Révélateur",
+            "email": "contact@revelateur.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/config": "^8.6",
+        "illuminate/view": "^8.6"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
