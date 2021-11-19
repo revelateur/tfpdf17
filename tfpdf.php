@@ -685,16 +685,16 @@ class tFPDF
 
 			$this->line(10,25,198,25);
 		} else if ($customHd == "ent-suiv") {
-			$this->Image($this->baseDir.'/../modules/service_civ/assets/img/accompagn-entretien-suivi.jpg', 0, -50, 210, 0);
+			$this->Image($this->baseDir.'/modules/service_civ/assets/img/accompagn-entretien-suivi.jpg', 0, -50, 210, 0);
 			$this->SetY(70);
 		} else if ($customHd == "bilan-integ") {
-			$this->Image($this->baseDir.'/../modules/service_civ/assets/img/accompagn-fiche-mission.jpg', 0, -50, 210, 0);
+			$this->Image($this->baseDir.'/modules/service_civ/assets/img/accompagn-fiche-mission.jpg', 0, -50, 210, 0);
 			$this->SetY(70);
 		} else if ($customHd == "ent-acc") {
-			$this->Image($this->baseDir.'/../modules/service_civ/assets/img/accompagn-entretien-accueil.jpg', 0, -50, 210, 0);
+			$this->Image($this->baseDir.'/modules/service_civ/assets/img/accompagn-entretien-accueil.jpg', 0, -50, 210, 0);
 			$this->SetY(70);
 		} else if ($customHd == "bilan-nom") {
-			   $this->Image($this->baseDir."/../modules/service_civ/assets/img/accompagn-bilan_nominatif.jpg", 0, -50, 210, 0);
+			   $this->Image($this->baseDir."/modules/service_civ/assets/img/accompagn-bilan_nominatif.jpg", 0, -50, 210, 0);
 			   $this->SetY(70);
 		} else if ($customHd == "charte-tuto") {
 			$this->Image($this->baseDir."/gestion/public/assets/img/charte-du-tutorat.jpg", 0, -50, 210, 0);
